@@ -1,0 +1,336 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.home {
+    height: 100%;
+    width: 100%;
+    position: relative;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    height: 64px;
+    background: #221C5A;
+    text-transform: uppercase;
+    color: #f3f3f3;
+    font-size: 14px;
+    position: fixed;
+    z-index: 100;
+
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    line-height: 64px;
+}
+
+li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.home-main {
+    position: relative;
+    top: 64px;
+    width: 100%;
+    height: calc(100% - 64px);
+    background: url(../images/main.jpg);
+    background-size: cover;
+
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.text-part {
+    width: 60%;
+    height: 50%;
+    text-align: center;
+    font-size: 30px;
+    color: #f3f3f3;
+    margin: auto;
+    position: absolute;
+    top: calc(23% - 64px);
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.text-part .arrangement {
+    margin-bottom: 85px;
+}
+
+.text-part p {
+    font-size: 24px;
+
+}
+
+/*services part */
+.services {
+    height: 130%;
+    width: 100%;
+    background: #221C5A;
+}
+
+.services-main {
+    height: 100%;
+    width: 77%;
+    margin: auto;
+    background: #221C5A;
+}
+
+.left-menu {
+    height: 370px;
+    width: 370px;
+    background: #32DB8A;
+    position: sticky;
+    top: 64px;
+
+}
+
+.left-menu .left-content,
+.left-content2 {
+    overflow: hidden;
+}
+
+.left-menu h1 {
+    margin: 0;
+    color: #55B286;
+    font-size: 180px;
+    position: relative;
+    left: -50px;
+
+}
+
+.left-menu .ser {
+    color: #f3f3f3;
+    float: right;
+    font-weight: 1000;
+    font-size: 100px;
+
+}
+
+.left-menu .ser .one {
+    margin-top: -50px;
+}
+
+.left-menu .ser .two {
+    margin-top: -200px;
+}
+
+.services .right-menu {
+    width: calc(100% - 370px);
+    height: calc(100% - 370px);
+    float: right;
+    position: relative;
+    background: white;
+}
+
+.right-menu-main {
+    height: 80%;
+    width: 85%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.top,
+.bottom {
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+
+.top p {
+    font-size: 16px;
+}
+
+.top-left {
+    width: 45%;
+    height: 100%;
+    line-height: 28px;
+}
+
+.top-left h2 {
+    font-weight: 100;
+    margin: 0;
+}
+
+.top-right h2 {
+    font-weight: 100;
+    margin: 0;
+}
+
+.text-portion {
+    margin-left: 18%;
+}
+
+.top-right {
+    width: 45%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    line-height: 30px;
+    top: 0;
+    text-align: left;
+}
+
+
+
+
+/*portfolio*/
+
+.portfolio {
+    height: 255%;
+    width: 100%;
+    background-color: #221C5A;
+    background-image: url(../images/background_img_02.jpg);
+    background-repeat: no-repeat;
+}
+
+.portfolio-main {
+    margin: auto;
+    height: 100%;
+    width: 77%;
+    position: relative;
+    
+}
+
+.pl {
+    float: right;
+    background: rgb(255, 186, 66);
+}
+
+
+.pl .ser{
+    margin-right: -35px;
+}
+.pl h1 {
+    color: #e3a436;
+}
+
+
+.pl-left {
+    width: calc(100% - 370px);
+    height: calc(100% - 370px);
+    float: right;
+    position: relative;
+    top: 370px;
+    background: white;
+}
+
+.one-image {
+    height: 33%;
+    width: 100%;
+    background: url(../images/port_item_01.jpg);
+    background-size: cover;
+}
+
+.two-image {
+    height: 28%;
+    width: 100%;
+}
+
+.img-left {
+    height: 100%;
+    width: 50%;
+    float: left;
+    background: url(../images/port_item_04.png);
+}
+
+.img-right {
+    height: 100%;
+    width: 50%;
+    float: right;
+    background: url(../images/port_item_05.png);
+}
+
+.three-image {
+    height: 33%;
+    width: 100%;
+    background: url(../images/labwork.jpg);
+    background-size: cover;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+.load{
+    height: 6%;
+    width: 100%;
+    background: #221C5A;
+}
+
+.load-more {
+    height: 100%;
+    width: calc(100% - 370px);
+    background: #e64b77;
+    color: #f3f3f3;
+    text-align: center;
+    float: right;
+}
+
+.load-more h2 {
+    margin-top: 10px;
+}
+
+.load-more img {
+    margin-top: 10px;
+}
+
+
+/*about us part*/
+
+.about{
+    height: 200%;
+    width: 100%;
+    background-color: background-color: rgb(34, 28, 90);
+    background-image: url(../images/background_img_03.jpg);
+    background-size: cover;
+}
+.about-main{
+    height: 100%;
+    width: 77%;
+    margin: auto;
+}
+.ab{
+    background: #e64b77;
+    
+}
+.ab .ser{
+    margin-right: -35px;
+}
+.ab h1{
+    color: #b24564;
+}
+
+
+
+
+
+
+
