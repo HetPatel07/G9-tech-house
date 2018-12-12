@@ -145,8 +145,8 @@ h1 {
 }
 
 .right-menu-main {
-    height: 80%;
-    width: 85%;
+    width: 80%;
+    padding: 20px 20px;
     position: absolute;
     margin: auto;
     top: 0;
@@ -157,8 +157,6 @@ h1 {
 
 .top,
 .bottom {
-    width: 100%;
-    height: 50%;
     position: relative;
 }
 
@@ -168,7 +166,7 @@ h1 {
 
 .top-left {
     width: 45%;
-    height: 100%;
+    display: inline-block;
     line-height: 28px;
 }
 
@@ -188,12 +186,9 @@ h1 {
 
 .top-right {
     width: 45%;
-    height: 100%;
-    position: absolute;
-    right: 0;
     line-height: 30px;
-    top: 0;
     text-align: left;
+    display: inline-block;
 }
 
 
