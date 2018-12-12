@@ -100,8 +100,8 @@ h1 {
 }
 
 .left-menu {
-    height: 370px;
-    width: 370px;
+    height: 38%;
+    width: 32%;
     background: #32DB8A;
     position: sticky;
     top: 64px;
@@ -139,8 +139,8 @@ h1 {
 }
 
 .services .right-menu {
-    width: calc(100% - 370px);
-    height: calc(100% - 370px);
+    width: calc(100% - 32%);
+    height: calc(100% - 38%);
     float: right;
     position: relative;
     background: white;
@@ -220,6 +220,8 @@ h1 {
 }
 
 .pl {
+    height: 19%;
+    width: 32%;
     float: right;
     background: rgb(255, 186, 66);
 }
@@ -234,11 +236,11 @@ h1 {
 
 
 .pl-left {
-    width: calc(100% - 370px);
-    height: calc(100% - 370px);
+    width: calc(100% - 32%);
+    height: calc(100% - 19%);
     float: right;
     position: relative;
-    top: 370px;
+    top: 19%;
     background: white;
 }
 
@@ -253,7 +255,7 @@ h1 {
     height: 28%;
     width: 100%;
 }
-
+  
 .img-left {
     height: 100%;
     width: 50%;
@@ -283,11 +285,12 @@ h2 {
     height: 6%;
     width: 100%;
     background: #221C5A;
+    margin-top: .5px;
 }
 
 .load-more {
     height: 100%;
-    width: calc(100% - 370px);
+    width: calc(100% - 47%);
     background: #e64b77;
     color: #f3f3f3;
     text-align: center;
@@ -308,9 +311,10 @@ h2 {
 .about{
     height: 200%;
     width: 100%;
-    background-color: background-color: rgb(34, 28, 90);
+    background-color: rgb(34, 28, 90);
     background-image: url(../images/background_img_03.jpg);
     background-size: cover;
+    
 }
 .about-main{
     height: 100%;
@@ -319,6 +323,8 @@ h2 {
 }
 .ab{
     background: #e64b77;
+    width: 32%;
+    height: 25%;
     
 }
 .ab .ser{
