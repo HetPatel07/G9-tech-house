@@ -63,12 +63,10 @@ h1 {
 }
 
 .text-part {
-    width: 60%;
-    height: 50%;
     text-align: center;
     font-size: 30px;
     color: #f3f3f3;
-    margin: auto;
+    margin: 8% auto;
     position: absolute;
     top: calc(23% - 64px);
     bottom: 0;
