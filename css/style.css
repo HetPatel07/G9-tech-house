@@ -85,21 +85,19 @@ h1 {
 
 /*services part */
 .services {
-    height: 130%;
     width: 100%;
     background: #221C5A;
 }
 
 .services-main {
-    height: 100%;
     width: 77%;
     margin: auto;
     background: #221C5A;
 }
 
 .left-menu {
-    height: 38%;
-    width: 32%;
+    height: 370px;
+    width: 370px;
     background: #32DB8A;
     position: sticky;
     top: 64px;
@@ -135,24 +133,23 @@ h1 {
 .left-menu .ser .two {
     margin-top: -200px;
 }
-
-.services .right-menu {
-    width: calc(100% - 32%);
-    height: calc(100% - 38%);
-    float: right;
+.services .again{
+    width: 100%;
+    overflow: auto;
     position: relative;
+}
+.services .right-menu {
+    width: calc(100% - 370px);
+    overflow: auto;
+    float: right;
     background: white;
 }
 
 .right-menu-main {
     width: 80%;
+    overflow: auto;
     padding: 20px 20px;
-    position: absolute;
     margin: auto;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
 }
 
 .top,
