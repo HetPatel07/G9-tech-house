@@ -392,15 +392,9 @@ h2 {
 }
 
 .about-top-left .inner {
-    display: table;
-    vertical-align: middle;
+    display: inline-block;
+    line-height: 60px;
 }
-
-.inner-inner {
-    display: table-cell;
-    vertical-align: middle;
-}
-
 .about-top-left .inner p {
     font-size: 24px;
     float: left;
@@ -410,7 +404,6 @@ h2 {
 .ab-top {
     color: #221c5a;
     width: 90%;
-    margin-top: -20px;
     font-size: 16px;
     text-align: left;
     line-height: 25px;
