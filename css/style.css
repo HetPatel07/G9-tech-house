@@ -450,7 +450,7 @@ h2 {
     height: 370px;
     display: inline-block;
     float: right;
-    background-image: url(../images/IMG_20181112_183208.jpg);
+    background-image: linear-gradient(rgba(250, 85, 125, .5),rgba(230, 75, 119, .5)),url(../images/IMG_20181112_183208.jpg);
     background-position: center top;
     background-size: cover;
 }
