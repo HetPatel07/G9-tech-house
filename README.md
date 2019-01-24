@@ -1,1 +1,1 @@
-<a href="https://g9techouse.netlify.com/">G9 tech house</a>
+<a target="_blank" href="https://g9techouse.netlify.com/">G9 tech house</a>
